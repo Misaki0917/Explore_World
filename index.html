@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <section class="top">
+    <header>
+      <div class="header-left">
+        <img class="logo" src="./assets/img/logo-white.png" alt="">
+      </div>
+      <div class="header-right">
+        <ul>
+          <li>About</li>
+          <li>Plan</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <h1>Explore World</h1>
+      <p class="top-main">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </main>
+    <!-- mainページの最後に白い部分が出てくるのは何で？ -->
+    <!-- 検証ツールで確認できない... mainのなかに入り込んでる -->
+    <!-- 他のセクションの余白が反映されてる？ -->
+  </section>
+
+  <section class="about">
+    <h2>About</h2>
+    <div class="about-contents">
+      <img class="about-image" src="./assets/img/placeholder.png" alt="">
+      <div class="about-text">
+        <h3>Some text</h3>
+        <p class="some-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quibusdam corrupti perferendis, dicta maxime ducimus asperiores minima assumenda dolore quae blanditiis voluptate quaerat iusto earum temporibus totam vero ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloremque maiores officiis temporibus tempora laborum commodi iusto aliquid facilis dolore, earum nemo est laudantium, deserunt sequi labore cum corporis. Quia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="plan">
+    <h2>Plan</h2>
+    <div class="plan-main">
+      <div class="free">
+        <h4>Free</h4>
+        <p class="plan-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt tempore hic mollitia eos inventore soluta sed temporibus dolor, repellat ipsam necessitatibus aliquid laboriosam! Officia ab at suscipit, vel incidunt numquam?
+        </p>
+      </div>
+      <div class="standard">
+        <h4>Standard</h4>
+        <p class="plan-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt tempore hic mollitia eos inventore soluta sed temporibus dolor, repellat ipsam necessitatibus aliquid laboriosam! Officia ab at suscipit, vel incidunt numquam?
+        </p>
+      </div>
+      <div class="pro">
+        <h4>Pro</h4>
+        <p class="plan-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt tempore hic mollitia eos inventore soluta sed temporibus dolor, repellat ipsam necessitatibus aliquid laboriosam! Officia ab at suscipit, vel incidunt numquam?
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <!-- form お問い合わせフォームを作る時のタグ -->
+      <div class="contact-box">
+        <!-- <form action="confirm.php"> -->
+        <!-- テキストフィールド(1行で済むやつ) -->
+        <!-- <label for="rendou">名前：</label> -->
+        <!-- name 何を入力するか分かりやすくするため -->
+        <!-- label input はセットで覚えてみてもいいかも？ -->
+        <!-- placeholder 薄いグレーの文字 -->
+        <input type="text" name="yourname" placeholder="Name">
+        <!-- <label for="mail">メール：</label> -->
+        <input type="email" name="mail" placeholder="Email">
+        <!-- <label for="comment">コメント：</label> -->
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        <!-- input type="submit" value="ボタンに表示する文字" -->
+        <!-- リセットする時 input type="reset" value="リセットする" -->
+        <!-- <input type="submit" value="Submit"> -->
+        <button type="submit">Submit</button>
+      </div>  
+  </section>
+
+  <footer>
+    <p>©︎ 2020 Website Title. All rights reserved.</p>
+  </footer>
+</body>
+</html>

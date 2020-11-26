@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.top{
+  background-image: url(../img/hill.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.logo{
+  height: 36px;
+}
+
+header{
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right > ul{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+h1{
+  font-size: 120px;
+  font-family: inherit;
+  /* フォントを変えたい時、どうすれば良い？ */
+  /* font: inherit; このプロパティを使うと全部の文字が小さくなってしまう*/
+  /* font-style: inherit; ？ */
+}
+
+.top-main{
+  font-size: 26px;
+}
+
+main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  font-size: 40px;
+}
+
+.about-image{
+  height: 300px;
+}
+
+.about-contents{
+  margin-top: 50px;
+  display: flex;
+}
+
+.about{
+  padding: 100px 80px 0px 80px;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px ;
+  margin-left: 40px;
+  justify-content: center;
+}
+
+h3{
+  font-size: 28px;
+}
+
+.plan , .contact{
+  padding: 100px 80px 0px 80px;
+}
+
+.free , .standard, .pro{
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 40px 20px;
+}
+
+.plan-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h4{
+  font-size: 25px;
+  text-align: center;
+}
+
+.plan-text{
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+textarea{
+  resize: both;
+}
+
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:  100px;
+
+}
+
+input, textarea{
+  margin: 10px;
+  width: 40%;
+  border-radius: 5px;
+}
+
+button{
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+  background-color: #223644;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  /* カーソルが上に来ると指差しマークになる */
+  cursor: pointer;
+}
+
+footer{
+  background-color: #223644;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
